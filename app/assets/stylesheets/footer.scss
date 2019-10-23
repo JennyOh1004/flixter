@@ -1,0 +1,26 @@
+#footer{
+	position: relative;
+	width: 100%;
+	min-height: 100px;
+	background-color: rgba(36, 32, 33, 0.9);
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	padding: 10px 0px;
+	margin-top: 30px;
+	letter-spacing: 2px;
+	font-weight: 100;
+}
+
+#footer a{
+	color: #fff;
+	font-weight: 100;
+	letter-spacing: 2px;
+}
+
+.social-button{
+	margin: 4px;
+}
+
+.social a:hover{
+	text-decoration: none;
+}
