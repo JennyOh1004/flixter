@@ -5,7 +5,7 @@
 	background-color: rgba(36, 32, 33, 0.9);
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
-	padding: 10px 0px;
+	padding: 30px;
 	margin-top: 30px;
 	letter-spacing: 2px;
 	font-weight: 100;
@@ -16,6 +16,14 @@
 	font-weight: 100;
 	letter-spacing: 2px;
 }
+
+#footer a:hover{
+	text-decoration: none;
+	color: #0037ff;
+	cursor: pointer;
+	transition: all 0.3s linear;
+}
+
 
 .social-button{
 	margin: 4px;

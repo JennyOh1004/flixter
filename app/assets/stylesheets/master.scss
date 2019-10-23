@@ -1,31 +1,33 @@
 @import 'bootstrap';
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Roboto+Mono|Satisfy|Shadows+Into+Light&display=swap');
 @import 'font-awesome';
 
 
 body{
-	background: image_url('dot-grid.png');
-	font-family: 'Nunito Sans', sans-serif;
+	background-color: #fff;
+	font-family: 'Roboto Mono', monospace;
 }
 
 .navbar{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	font-weight: 200;
 	letter-spacing: 2px;
 	box-shadow: 0px 1px 3px #2a2a2a;
-	background: image_url('papyrus-dark.png')
+	color: #000;
 }
 
 .navbar-inverse a.navbar-brand{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 100;
 	color: #0037ff;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 
 }
 
+
 .hero {
-  background: image_url('hero.jpg')no-repeat center center fixed;
+  background: image_url('yoga.jpg')no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -38,6 +40,16 @@ h1, h2, h3, h4, h5, h6, .navbar {
   margin: 0;
 }
 
+.h2_yoga{
+  font-size: 18px;
+  padding: 30px;
+}
+
+.h3_yoga{
+  font-size: 20px;
+  font-weight: 300;
+}
+
 .frosty {
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
@@ -45,6 +57,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 1px;
   font-weight: 100;
+  top: 180px;
 }
 
 
@@ -66,8 +79,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
 
 .feature{
 	width: 100%;
-	padding-left: 5%;
-	padding-right: 5%;
+	padding: 30px;
 }
 
 .booyah-box {
@@ -98,8 +110,6 @@ h1, h2, h3, h4, h5, h6, .navbar {
   padding: 2px 8px 2px 8px;
   margin: 10px;
 }
-
-
 
 .clr{
 	clear:both;
