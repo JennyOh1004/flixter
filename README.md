@@ -48,3 +48,7 @@ If a user attempts to view the lesson detail page for a course they are not enro
 
 
 
+Heroku: https://flixter-jenny-oh.herokuapp.com/
+Github: https://github.com/JennyOh1004/flixter
+
+
