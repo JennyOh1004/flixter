@@ -19,6 +19,7 @@ I set up the files such as MVC. (Models, View, Controllers)
 
 > Sign in, Sign up Page
 
+
 I integrated with the bootstrap gem and simple_form gem since this web application needs user authentication for sign in and sign out then I add user authentication with devise. 
 
 <img width="1266" alt="Screen Shot 2020-03-06 at 6 29 53 PM" src="https://user-images.githubusercontent.com/43684968/76135247-f1f30900-5fd9-11ea-8420-251a56a18ddd.png">
