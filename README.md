@@ -1,4 +1,4 @@
-### **Flixter Yoga Project**
+# Flixter Yoga Project
 
 
 This Flixter Yoga Web application includes a video streaming platform, featuring credit card payment capabilities, user role management, complex user interfaces, and advanced database relationships.
