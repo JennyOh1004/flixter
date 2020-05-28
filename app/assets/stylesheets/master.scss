@@ -19,9 +19,16 @@ body {
 .navbar-brand {
   font-family: "Capriola", sans-serif;
   font-weight: 700;
-  color: #eacda3;
+  color: #0c3483;
   letter-spacing: 4px;
   font-size: 20px;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.navbar-brand:hover {
+  text-decoration: none;
+  color: #ffc3a0;
+  transition: linear all 0.2s;
   text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
