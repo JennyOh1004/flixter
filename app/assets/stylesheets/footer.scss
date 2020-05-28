@@ -1,34 +1,36 @@
-#footer{
-	position: relative;
-	width: 100%;
-	min-height: 100px;
-	background-color: rgba(36, 32, 33, 0.9);
-	color: #fff;
-	font-family: 'Montserrat', sans-serif;
-	padding: 30px;
-	margin-top: 30px;
-	letter-spacing: 2px;
-	font-weight: 100;
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap");
+
+#footer {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  background-color: #f2f2f2;
+  color: #000;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 30px;
+  margin-top: 150px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  font-size: 16px;
 }
 
-#footer a{
-	color: #fff;
-	font-weight: 100;
-	letter-spacing: 2px;
+#footer a {
+  color: #000;
+  font-weight: 100;
+  letter-spacing: 2px;
 }
 
-#footer a:hover{
-	text-decoration: none;
-	color: #0037ff;
-	cursor: pointer;
-	transition: all 0.3s linear;
+#footer a:hover {
+  text-decoration: none;
+  color: #0c3483;
+  cursor: pointer;
+  transition: all 0.3s linear;
 }
 
-
-.social-button{
-	margin: 4px;
+.social-button {
+  margin: 4px;
 }
 
-.social a:hover{
-	text-decoration: none;
+.social a:hover {
+  text-decoration: none;
 }

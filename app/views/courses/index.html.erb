@@ -1,19 +1,22 @@
 <br />
 <div class="booyah-box col-10 offset-1">
-	<h2 class="text-center h2_yoga">Every yoga class is an opportunity to connect with yourself in the present moment. </h2>
-	<%= image_tag 'yoga2.jpg', class: 'img-fluid' %>
+	<h2 class="text-center h2_yoga"><span style="font-size: 50px">E</span>very yoga class is an opportunity to connect with yourself in the present moment. </h2>
+	<%= image_tag 'yoga_6.jpg', class: 'class_image' %>
 
 	<hr />
 
 	<% @courses.each do |course| %>
-	<h2 class="text-center"><%= link_to course.title, course_path(course) %></h2>
+		<div class="course__title">
+	<h2 class="text-center"><%= link_to course.title, course_path(course), class: 'course_title' %></h2></div>
 	<br />
 	<div class="row">
 	<div class="col-sm-8 col-12">
+	<div class="course_desc">
 		<%= course.description %>
+		</div>
 	</div>
-	<div class="col-sm-4 col-12 text-center">
-		<%= link_to 'More Details...', course_path(course), class: 'btn btn-primary btn-large' %>
+	<div class="col-sm-4 col-12 text-center course__btn">
+		<%= link_to 'More Details', course_path(course), class: 'course_btn' %>
 	</div>
 	</div>
 	<br class="clr" />

@@ -1,33 +1,36 @@
-@import 'bootstrap';
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Roboto+Mono|Satisfy|Shadows+Into+Light&display=swap');
-@import 'font-awesome';
+@import "bootstrap";
+@import "font-awesome";
+@import url("https://fonts.googleapis.com/css2?family=Capriola&family=Maven+Pro&family=Montserrat:wght@200&family=Playball&family=Quicksand&display=swap");
 
-
-body{
-	background-color: #fff;
-	font-family: 'Roboto Mono', monospace;
+body {
+  background-color: #fff;
+  font-family: "Quicksand", sans-serif;
+  color: #000;
 }
 
-.navbar{
-	font-family: 'Roboto Mono', monospace;
-	font-weight: 200;
-	letter-spacing: 2px;
-	box-shadow: 0px 1px 3px #2a2a2a;
-	color: #000;
+.navbar {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  color: #000;
 }
 
-.navbar-inverse a.navbar-brand{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 100;
-	color: #0037ff;
-	letter-spacing: 2px;
-
+.navbar-brand {
+  font-family: "Capriola", sans-serif;
+  font-weight: 700;
+  color: #eacda3;
+  letter-spacing: 4px;
+  font-size: 20px;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
+.nav-link {
+  color: #000;
+}
 
 .hero {
-  background: image_url('yoga.jpg')no-repeat center center fixed;
+  background: image_url("yoga_main.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -36,50 +39,59 @@ body{
   box-shadow: 0px 3px 8px #2a2a2a;
 }
 
-h1, h2, h3, h4, h5, h6, .navbar {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar {
   margin: 0;
 }
 
-.h2_yoga{
+.h2_yoga {
   font-size: 18px;
   padding: 30px;
 }
 
-.h3_yoga{
+.h3_yoga {
   font-size: 20px;
   font-weight: 300;
 }
 
 .frosty {
   background: rgba(0, 0, 0, 0.5);
-  color: #fff;
+  color: #dfe9f3;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Quicksand", sans-serif;
   letter-spacing: 1px;
   font-weight: 100;
-  top: 180px;
+  top: 400px;
 }
 
-
-.frosty h1{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 100;
-	text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+.frosty h1 {
+  font-family: "Playball", cursive;
+  letter-spacing: 4px;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
 }
 
-.frosty h2{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 200;
-	text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+.frosty h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+  font-size: 22px;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .btn {
-	border-radius: 0;
+  margin-top: 20px;
+  border-radius: 0;
 }
 
-.feature{
-	width: 100%;
-	padding: 30px;
+.feature {
+  width: 100%;
+  padding: 30px;
 }
 
 .booyah-box {
@@ -90,42 +102,48 @@ h1, h2, h3, h4, h5, h6, .navbar {
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
   padding: 10px;
+  margin-top: 60px;
 }
 
-
-.booyah-box h2, .booyah-box h1{
-	margin: 10px;
+.booyah-box h2,
+.booyah-box h1 {
+  margin: 10px;
 }
 
-
-#flex-content-container{
-	flex: 1;
+#flex-content-container {
+  flex: 1;
 }
-
 
 .help-block {
   color: #ff3333;
-  background-color: #FFEEEE;
+  background-color: #ffeeee;
   border-radius: 3px;
   padding: 2px 8px 2px 8px;
   margin: 10px;
 }
 
-.clr{
-	clear:both;
+.clr {
+  clear: both;
 }
 
-.lesson{
-	background-color: black;
-	margin-top: 10px;
-	height: 130px;
+.lesson {
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  margin-top: 10px;
+  height: 130px;
 }
 
-.lesson a{
-	color: #fff;
-	font-family: "Helvetica Neue", Helvetica;
-  	font-weight: 100;
-  	font-size: 15px;
+.lesson a {
+  color: #000;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+.lesson a:hover {
+  text-decoration: none;
+  color: #0c3483;
+  transition: linear all 0.2s;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .lesson a b {
@@ -133,55 +151,215 @@ h1, h2, h3, h4, h5, h6, .navbar {
   font-size: 25px;
 }
 
-.section{
-	border: 1px solid;
-	border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
-	padding: 20px;
+.section {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 20px;
 }
-
 
 ul {
-	list-style-type: none;
+  list-style-type: none;
+  color: #000;
 }
 
-.section-li{
-	border: 1px solid;
-	border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+ul .header {
+  font-size: 25px;
 }
 
-ul .header{
-	font-size: 25px;
+ul .header .fa {
+  font-size: 20px;
 }
 
-ul .header .fa{
-	font-size: 20px;
+.section-li {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 20px;
 }
 
-.section-li{
-	border: 1px solid;
-	border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
-	padding: 20px;
+.lessons li {
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  color: #000;
+  margin: 10px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 100;
+  padding-top: 25px;
+  font-size: 15px;
+  text-align: center;
 }
 
-.lessons li{
-	background: #000;
-	color: #fff;
-	margin: 10px;
-	font-family: "Helvetica Neue", Helvetica;
-  	font-weight: 100;
-  	padding: 8px;
-  	font-size: 15px;
+.lessons li b {
+  font-size: 25px;
+  font-weight: 100;
 }
 
-.lessons li b{
-	font-size: 25px;
-	font-weight: 100;
+.lesson li p {
+  margin: 0;
 }
 
-.lesson li p{
-	margin: 0;
+.courses {
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
+.img-fluid {
+  width: 430px;
+  height: 370px;
+  margin-bottom: 100px;
+}
 
+.main_context {
+  margin-top: 400px;
+  margin-bottom: 100px;
+}
 
+.main_bg {
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: -380px;
+  z-index: 1;
+}
 
+.class_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.course_title {
+  letter-spacing: 2px;
+  color: #000;
+}
+
+.course__title {
+  margin-top: 100px;
+}
+
+.course_title:hover {
+  text-decoration: none;
+  color: #0c3483;
+  transition: linear all 0.2s;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.course_desc {
+  margin-left: 40%;
+  width: 70%;
+  padding-top: 30px;
+  margin-bottom: 100px;
+}
+
+.course_btn {
+  border: solid 1px #c4c4c4;
+  border-radius: 3px;
+  padding: 10px 20px 10px 20px;
+  margin-top: 200px;
+  color: #000;
+  background-color: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  font-family: "Quicksand", sans-serif;
+}
+
+.course__btn {
+  margin-top: 100px;
+}
+
+.course_btn:hover {
+  text-decoration: none;
+  color: #0c3483;
+  transition: linear all 0.2s;
+}
+
+.learning__title {
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding: 100px;
+}
+
+.teaching__title {
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding: 100px;
+}
+
+//New section, course section
+
+.newSection_title {
+  margin-top: 100px;
+}
+
+.section_btn {
+  border: solid 1px #c4c4c4;
+  border-radius: 3px;
+  padding: 10px 25px 10px 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #000;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  letter-spacing: 2px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.section_btn:hover {
+  text-decoration: none;
+  color: #0c3483;
+  transition: linear all 0.2s;
+  cursor: pointer;
+}
+
+//video section
+.video_title {
+  margin: 100px;
+  letter-spacing: 2px;
+}
+
+.video_subtitle {
+  margin: 20px;
+}
+
+//detail page
+.detail_titie {
+  margin: 100px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.detail_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.detail_desc {
+  width: 60%;
+  margin-left: -30px;
+  font-size: 20px;
+  padding: 30px;
+}
+
+.enroll_btn {
+  border: solid 1px #c4c4c4;
+  border-radius: 3px;
+  padding: 10px 25px 10px 25px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: #000;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  letter-spacing: 2px;
+  font-family: "Quicksand", sans-serif;
+}
+
+ion-icon {
+  font-size: 25px;
+  padding: 5px;
+}

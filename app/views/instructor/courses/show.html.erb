@@ -36,14 +36,15 @@ $(function(){
 
 <br />
 <div class="booyah-box col-10 offset-1">
+<div class="newSection_title">
   <h1 class="text-center"><%= current_course.title %></h1>
-  <%= image_tag current_course.image.to_s, class: 'img-fluid' %>
-
+  <%= image_tag current_course.image.to_s, class: 'class_image' %>
+</div>
 
   <div class="text-center">
     <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#newSectionModal">
-      Add a new section...
+    <button type="button" class="section_btn " data-toggle="modal" data-target="#newSectionModal">
+      Add a new section
     </button>
   </div>
 
@@ -55,8 +56,8 @@ $(function(){
           <%= section.title %>
         </div>
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary btn-lg float-right new-lesson-button" data-toggle="modal" data-target="#newLessonModal" data-lesson-url="<%= instructor_section_lessons_path(section) %>">
-        New Lesson...
+        <button type="button" class="section_btn float-right new-lesson-button" data-toggle="modal" data-target="#newLessonModal" data-lesson-url="<%= instructor_section_lessons_path(section) %>">
+        New Lesson
         </button>
 
         <br class="clr" />
